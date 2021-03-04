@@ -9,9 +9,9 @@ jobs:
        - name: Branch name
          run: echo running on branch ${GITHUB_REF##*/}
        - name: Git checkout  
-         uses: actions/checkout@Dev
+         uses: actions/checkout@master
        - name: John Folia trufflehog-actions-scan
-         uses: johnfolia/trufflehog-actions-scan@Dev
+         uses: johnfolia/trufflehog-actions-scan@master
          with:
            scanArguments: "--regex --entropy=False --max_depth=50" # Add custom options here*
            #test runs
