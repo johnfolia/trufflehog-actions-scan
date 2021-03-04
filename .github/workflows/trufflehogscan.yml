@@ -9,7 +9,7 @@ jobs:
        - name: Branch name
          run: echo running on branch ${GITHUB_REF##*/}
        - name: Git checkout  
-         uses: actions/checkout@${GITHUB_REF##*/}
+         uses: actions/checkout@Dev
        - name: John Folia trufflehog-actions-scan
          uses: johnfolia/trufflehog-actions-scan@${GITHUB_REF##*/}
          with:
