@@ -10,5 +10,5 @@ jobs:
        - name: John Folia trufflehog-actions-scan
          uses: johnfolia/trufflehog-actions-scan@master
          with:
-           scanArguments: "--regex --entropy=False --max_depth=50 https://fc4996e5efb58e157ba5499e3b0c11d7a7d778e2@github.com/CIGInsurance/Operations.git" # Add custom options here*
+           scanArguments: "--regex --entropy=False --max_depth=50" # Add custom options here*
            #test runs
