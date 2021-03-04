@@ -1,0 +1,3 @@
+db_name = Prod_DB
+db_pass = W3lc0m#!@#
+db_server = PRODDB
