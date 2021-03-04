@@ -10,5 +10,5 @@ jobs:
        - name: John Folia trufflehog-actions-scan
          uses: johnfolia/trufflehog-actions-scan@master
          with:
-           scanArguments: "--regex --entropy=False --max_depth=50 --rules /regexes.json" # Add custom options here*
+           scanArguments: "--regex --entropy=False --max_depth=50 " # Add custom options here*
            #test runs
